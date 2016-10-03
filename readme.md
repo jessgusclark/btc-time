@@ -5,16 +5,9 @@ What is the average amount of time between blocks mined?
 
 ## What Blocks:
 
-Blocks 429408 - 431423
-
-https://blockchain.info/block-height/429408
-https://blockchain.info/block-height/431423
-
+Blocks [429408](https://blockchain.info/block-height/429408) - [431423](https://blockchain.info/block-height/431423)
 
 Difficulty : 225,832,872,179.46
-
-https://blockchain.info/block-height/429408
-
 
 ## Data
 
