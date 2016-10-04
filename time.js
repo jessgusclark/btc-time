@@ -4,6 +4,9 @@ $(document).ready(function(){
     getData();
 });
 
+//
+// Parse local-data.json file and pass data to parseData()
+//
 function getData(){
 
     var apiPath = "local-data.json";
@@ -16,6 +19,9 @@ function getData(){
         });
 }
 
+//
+// Take json data and select the height and block time. Put into array
+//
 function parseData(json){
 
     var blockData = [];
@@ -27,8 +33,11 @@ function parseData(json){
     evalTime(blockData);
 }
 
+//
+// Calculate the difference between block and previous block 
+//
 function evalTime(blockData){
-    
+
     for (i = 0; i < blockData.length; i++) { 
         if (i != 0){
 
@@ -46,6 +55,9 @@ function evalTime(blockData){
     }
 }
 
+//
+// Return seconds from miliseconds
+//
 function returnSeconds(time){
     return time / 1000;
 }
