@@ -9,7 +9,7 @@ $(document).ready(function(){
 //
 function getData(){
 
-    var apiPath = "local-data.json";
+    var apiPath = "data/blocks-429408-431423.json";
 
     var jqxhr = $.getJSON(apiPath, function(data) {
             parseData(data);
