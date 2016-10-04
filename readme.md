@@ -31,18 +31,14 @@ As a result, the difficulty was increased to 241,227,200,229.99 for the next blo
 
 ### Longest
 
-[430469](https://blockchain.info/block-height/430469)
-
-[430470](https://blockchain.info/block-height/430470) 
+[430469](https://blockchain.info/block-height/430469) - [430470](https://blockchain.info/block-height/430470) 
 
 4656 seconds or 1:17:36
 
 ### Shortest
 
-[430272](https://blockchain.info/block-height/430469
+[430272](https://blockchain.info/block-height/430272) - [430273](https://blockchain.info/block-height/430273) 
 
-[430273](https://blockchain.info/block-height/430273) 
-
- 1 second
+> 1 second (2016-09-17 19:00:39 to 	2016-09-17 19:00:40)
 
 
