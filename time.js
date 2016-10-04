@@ -38,6 +38,8 @@ function parseData(json){
 //
 function evalTime(blockData){
 
+    var csv;
+
     for (i = 0; i < blockData.length; i++) { 
         if (i != 0){
 
@@ -49,10 +51,11 @@ function evalTime(blockData){
             var d2 = Date.parse(blockData[i-1].block_time);
 
             var diff = Math.abs(d1 - d2);
-            console.log(blockData[i].height, blockData[i-1].height, returnSeconds(diff) );
+            document.write(blockData[i].height + "," + blockData[i-1].height + "," + returnSeconds(diff) + "\n");
 
         }
     }
+
 }
 
 //
