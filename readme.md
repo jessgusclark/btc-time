@@ -16,7 +16,7 @@ Data was from https://api.blocktrail.com/ stored into local-data.json as to not 
 ## Process
 
 - Collected data from Blocktrail on the blocks listed above.
-- Wrote JavaScript to parse data and convert to [CSV](data/difference.csv)
+- Wrote [JavaScript](time.js) to parse data and convert to [CSV](data/difference.csv)
 - Used Excel to create graph, average and highest and lowest blocks
 
 ## Results
@@ -39,6 +39,8 @@ As a result, the difficulty was increased to 241,227,200,229.99 for the next blo
 
 [430272](https://blockchain.info/block-height/430272) - [430273](https://blockchain.info/block-height/430273) 
 
-> 1 second (2016-09-17 19:00:39 to 	2016-09-17 19:00:40)
+Less than 1 second (2016-09-17 19:00:39 to 	2016-09-17 19:00:40)
 
+## Contribute
 
+Yes Please!
