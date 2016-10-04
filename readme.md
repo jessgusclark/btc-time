@@ -17,11 +17,11 @@ Data was from https://api.blocktrail.com/ stored into local-data.json as to not 
 
 - Collected data from Blocktrail on the blocks listed above.
 - Wrote JavaScript to parse data and convert to [CSV](data/difference.csv)
-- Used Excel to create average 
+- Used Excel to create graph, average and highest and lowest blocks
 
 ## Results
 
-![Chart of Time over 2014 blocks][img/blocks-429408-431324.jpg]
+![Chart of Time over 2014 blocks](img/blocks-429408-431324.jpg)
 
 ### Average
 
